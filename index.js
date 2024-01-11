@@ -25,7 +25,9 @@ function updateFirstTitle() {
   const newh1 = document.getElementById("myh1");
   newh1.innerText = "Merhaba, Dünya!";
 }
-
+function myfn() {
+  console.log("done");
+}
 let abc = function (x,y) {
   return x + y;
 }
