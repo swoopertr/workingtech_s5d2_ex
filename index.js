@@ -15,7 +15,10 @@ document.addEventListener("DOMContentLoaded", function () {
   appendLi();
   divStyleChange();
 });
-
+let a = 1;
+let b = 2;
+let c = a + b;
+let d = a - b;
 function updateFirstTitle() {
   const newh1 = document.getElementById("myh1");
   newh1.innerText = "Merhaba, Dünya!";
