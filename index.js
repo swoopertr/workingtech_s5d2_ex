@@ -19,6 +19,8 @@ let a = 1;
 let b = 2;
 let c = a + b;
 let d = a - b;
+
+//todo send rocket to space....
 function updateFirstTitle() {
   const newh1 = document.getElementById("myh1");
   newh1.innerText = "Merhaba, Dünya!";
