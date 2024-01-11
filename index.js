@@ -56,7 +56,9 @@ function metniGoruntule () {
     let myh1 = document.getElementById("myh1");
     myh1.innerText = girilenMetinDegeri;
 }
-
+function fn1(){
+  console.log("fn1");
+}
 function submitBtn (event) {
     event.preventDefault();
     metniGoruntule();
