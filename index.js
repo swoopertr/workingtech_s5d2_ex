@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   divStyleChange();
 });
 
+//todo send rocket to space....
 function updateFirstTitle() {
   const newh1 = document.getElementById("myh1");
   newh1.innerText = "Merhaba, Dünya!";
