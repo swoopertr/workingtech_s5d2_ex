@@ -24,6 +24,10 @@ function updateFirstTitle() {
   newh1.innerText = "Merhaba, Dünya!";
 }
 
+let abc = function (x,y) {
+  return x + y;
+}
+
 function AddText() {
   let newText = "deneme metin içerik";
   let myh1 = document.getElementById("myh1");
